@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf2e4">
+  <title>Vanika Sharma — Six Months</title>
+  <meta name="description" content="A six month love letter for Vanika Sharma.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/photos/p03.webp">
+  <link rel="preload" as="image" href="assets/photos/p01.webp">
+  <link rel="preload" as="image" href="assets/photos/p06.webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="petals" aria-hidden="true"></canvas>
+  <div class="effects" id="effects" aria-hidden="true"></div>
+
+  <div class="begin-screen" id="beginScreen" role="dialog" aria-modal="true" aria-labelledby="beginTitle">
+    <div class="begin-photos" aria-hidden="true">
+      <img src="assets/photos/p01.webp" alt="">
+      <img src="assets/photos/p03.webp" alt="">
+      <img src="assets/photos/p06.webp" alt="">
+    </div>
+    <section class="begin-note">
+      <p class="eyebrow">for Vanika Sharma</p>
+      <h1 id="beginTitle">This is not a website. It is me, trying to hand you my heart.</h1>
+      <p>
+        I kept trying to make something impressive. What I actually needed was something honest.
+        Read it slowly, baby. Every part of this is for you.
+      </p>
+      <button class="primary-action" id="beginButton" type="button">Open my heart</button>
+    </section>
+  </div>
+
+  <header class="site-header">
+    <a class="mark" href="#home" aria-label="Home">V&nbsp;&amp;&nbsp;D</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#letter">Letter</a>
+      <a href="#months">Months</a>
+      <a href="#moments">Moments</a>
+      <a href="#quiet">Quiet</a>
+      <a href="#read">For you</a>
+      <a href="#worlds">Worlds</a>
+      <a href="#promise">Promise</a>
+    </nav>
+    <span class="since-chip">est. Jan 4, 2026</span>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">January 4, 2026 &mdash; July 4, 2026</p>
+        <h2 class="reveal">Vanika, you are my heart&rsquo;s <em>favorite</em> choice.</h2>
+        <p class="reveal">
+          You are not just my girlfriend. You are the person I keep choosing in my head,
+          in my plans, in the middle of normal days, and even when distance is loud.
+          I made this as proof that I notice you, miss you, adore you, and see a future with you.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="primary-action" href="#letter">Read the letter</a>
+          <button class="secondary-action" id="heartButton" type="button">Send love</button>
+        </div>
+      </div>
+
+      <div class="portrait-stack reveal" aria-label="Photos of Vanika and us">
+        <button class="photo-card photo-card-one" data-photo="2" type="button">
+          <img src="assets/photos/p03.webp" alt="Vanika and Dyutit together">
+          <span>the part I keep replaying</span>
+        </button>
+        <button class="photo-card photo-card-two" data-photo="0" type="button">
+          <img src="assets/photos/p01.webp" alt="Vanika in golden light">
+          <span>my prettiest view</span>
+        </button>
+        <button class="photo-card photo-card-three" data-photo="5" type="button">
+          <img src="assets/photos/p06.webp" alt="Vanika at dinner">
+          <span>the girl I am proud to love</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <article class="love-letter reveal">
+        <p class="eyebrow">dear Vanika</p>
+        <h2>I need you to know what six months with you has done to me.</h2>
+        <p>
+          Before you, love was something I could explain like an idea. With you, it became a place.
+          It became your name on my phone. It became waiting for your messages. It became smiling at
+          pictures I already saw ten times. It became missing you in the middle of normal days because
+          normal days feel better when you are in them.
+        </p>
+        <p>
+          I love your pretty face, obviously. I love your eyes, your smile, your dramatic little moods,
+          your softness, your laugh, your voice when you are sleepy, and the way you somehow make me
+          want to be romantic even when I am trying to act normal.
+        </p>
+        <p>
+          But I also love the deeper things. I love how much you care. I love how real you are with me.
+          I love that you make me feel wanted. I love that even when we are far, you still feel close
+          enough to affect my whole day. I love that you are not just someone I like being with.
+          You are someone I am building my future around.
+        </p>
+        <p>
+          Six months is not small to me. It is six months of choosing you, missing you, learning you,
+          laughing with you, getting annoyed and still wanting you, imagining us, and realizing that
+          my life feels more mine when you are part of it.
+        </p>
+        <p class="letter-signature">Happy six months, baby. I love you, seriously. &mdash; Dyutit</p>
+      </article>
+    </section>
+
+    <section class="section counter-section" aria-label="Love counter">
+      <div class="reveal">
+        <p class="eyebrow">time has receipts</p>
+        <h2>Every second since us began still matters.</h2>
+      </div>
+      <div class="time-grid reveal" id="timeGrid" aria-live="polite">
+        <span><b>--</b><small>days</small></span>
+        <span><b>--</b><small>hours</small></span>
+        <span><b>--</b><small>minutes</small></span>
+        <span><b>--</b><small>seconds</small></span>
+      </div>
+    </section>
+
+    <section class="section months-section" id="months">
+      <div class="section-heading reveal">
+        <p class="eyebrow">six months</p>
+        <h2>Not just time. Six chapters of you becoming my favorite person.</h2>
+      </div>
+      <div class="month-tabs reveal" id="monthTabs" aria-label="Six month reflections"></div>
+      <article class="month-detail reveal" id="monthDetail"></article>
+    </section>
+
+    <section class="section quiet-section" id="quiet">
+      <div class="section-heading reveal">
+        <p class="eyebrow">like i promised</p>
+        <h2>The quiet things you never knew I did.</h2>
+        <p class="quiet-intro">You always wondered what was happening on my side of things. So here it is &mdash; the small stuff I never told you, the ways I was loving you when you weren&rsquo;t looking.</p>
+      </div>
+      <div class="quiet-list" id="quietList"></div>
+      <p class="quiet-note reveal">You didn&rsquo;t see most of this. That was kind of the point. Loving you quietly is still loving you &mdash; every single time.</p>
+    </section>
+
+    <section class="section read-section" id="read">
+      <div class="section-heading reveal">
+        <p class="eyebrow">open these when you need me</p>
+        <h2>I wrote you places to land on hard days and soft days.</h2>
+      </div>
+      <div class="envelope-grid" id="envelopeGrid"></div>
+    </section>
+
+    <section class="section memory-section" id="memories">
+      <div class="section-heading reveal">
+        <p class="eyebrow">proof wall</p>
+        <h2>Every little proof that my heart has a favorite person.</h2>
+      </div>
+      <div class="memory-wall" id="memoryWall"></div>
+    </section>
+
+    <section class="section moments-section" id="moments">
+      <div class="section-heading reveal">
+        <p class="eyebrow">the highlight reel</p>
+        <h2>The moments I would live again on a loop.</h2>
+        <p class="moments-intro">Some of these are big. Some are just us on a call doing nothing. All of them are my favorites, because they all have you in them.</p>
+      </div>
+      <div class="moments-grid" id="momentsGrid"></div>
+    </section>
+
+    <section class="section reasons-section" id="reasons">
+      <div class="section-heading reveal">
+        <p class="eyebrow">things I love</p>
+        <h2>I could keep going, so I made the page keep going too.</h2>
+      </div>
+      <div class="reasons-panel reveal">
+        <button class="primary-action" id="revealReason" type="button">Reveal another reason</button>
+        <div class="reason-count" id="reasonCount">0 of 36 shown</div>
+        <div class="reason-grid" id="reasonGrid"></div>
+      </div>
+    </section>
+
+    <section class="section worlds-section" id="worlds">
+      <div class="section-heading reveal">
+        <p class="eyebrow">i was paying attention</p>
+        <h2>I kept a little map of every world you love.</h2>
+      </div>
+
+      <div class="first-show reveal">
+        <span class="play-badge" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+        </span>
+        <p class="eyebrow">our first show</p>
+        <h3>Off Campus</h3>
+        <p>The first one we pressed play on together. Wherever the story goes, I just want to keep watching it next to you &mdash; one episode, one night, one us at a time.</p>
+      </div>
+
+      <div class="ghibli-feature reveal">
+        <p class="eyebrow">most of all, ghibli</p>
+        <h3>Anything Studio Ghibli, always.</h3>
+        <p>The soft, hand-painted, quietly magic worlds you fall into &mdash; I want to fall into all of them with you, on slow afternoons with nowhere to be.</p>
+        <div class="world-tags" id="ghibliTags"></div>
+      </div>
+
+      <div class="worlds-grid">
+        <div class="world-col reveal">
+          <h4>Series you love</h4>
+          <div class="world-tags" id="seriesTags"></div>
+        </div>
+        <div class="world-col reveal">
+          <h4>Movies you love</h4>
+          <div class="world-tags" id="movieTags"></div>
+        </div>
+        <div class="world-col reveal">
+          <h4>Also always great</h4>
+          <div class="world-tags" id="alsoTags"></div>
+        </div>
+      </div>
+
+      <div class="rereads reveal">
+        <h4>And the stories you keep rereading</h4>
+        <div class="world-tags small" id="rereadTags"></div>
+      </div>
+    </section>
+
+    <section class="section distance-section" id="distance">
+      <div class="section-heading reveal">
+        <p class="eyebrow">distance does not get the last word</p>
+        <h2>There is space between us, but no space where I stop loving you.</h2>
+      </div>
+      <div class="distance-card reveal">
+        <div class="name-row">
+          <span>Vanika</span>
+          <span>Dyutit</span>
+        </div>
+        <div class="bridge" id="bridge"></div>
+        <p id="bridgeText">Tap the hearts until the distance runs out of excuses.</p>
+      </div>
+    </section>
+
+    <section class="section promise-section" id="promise">
+      <div class="promise-copy reveal">
+        <p class="eyebrow">my promise</p>
+        <h2>Hold this down and I will seal it.</h2>
+        <p>
+          I promise to love you in ways that are not only cute online. I promise to keep showing up,
+          keep listening, keep trying, keep choosing you, and keep making room for the future we talk about.
+        </p>
+      </div>
+      <div class="promise-seal reveal">
+        <button class="hold-button" id="holdButton" type="button">
+          <span>Hold to seal my promise</span>
+          <i id="holdFill"></i>
+        </button>
+        <p id="promiseText">Not tapped. Held. Because I mean it.</p>
+      </div>
+    </section>
+
+    <section class="section final-section" id="forever">
+      <article class="final-letter reveal">
+        <p class="eyebrow">one last thing</p>
+        <h2>Vanika Sharma, you mean the world to me.</h2>
+        <p>
+          If this page could do what my heart wants, it would jump through the screen, hold your face,
+          and tell you that you are loved in a way that is not fragile. You are not temporary to me.
+          You are not background noise. You are not just a chapter I am passing through.
+        </p>
+        <p>
+          You are my girl. My favorite notification. My safest thought. My prettiest problem.
+          My future plan. The person I want beside me when life is calm and when life is difficult.
+        </p>
+        <p>
+          I am proud of us. I am proud of six months. I am proud that even with distance, emotions,
+          overthinking, missing each other, and everything life throws around, my answer keeps being you.
+        </p>
+        <button class="primary-action" id="foreverButton" type="button">I choose you again</button>
+        <p class="forever-line" id="foreverLine">Six months down. I still choose you first.</p>
+      </article>
+    </section>
+  </main>
+
+  <div class="modal" id="photoModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="close-modal" data-close-modal type="button" aria-label="Close">&times;</button>
+      <img id="modalImage" alt="">
+      <div class="modal-copy">
+        <p class="eyebrow">saved because you matter</p>
+        <h3 id="modalTitle">Photo</h3>
+        <p id="modalText"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
