@@ -1,34 +1,34 @@
 const photos = [
-  ["assets/photos/p01.webp", "Golden hour kept trying", "I love this because it feels like the world paused just to make you glow. You are the kind of pretty that makes me quiet for a second."],
-  ["assets/photos/p02.webp", "The softest view", "This one reminds me that missing you is not empty. It is proof that someone matters enough to be felt from far away."],
-  ["assets/photos/p03.webp", "My favorite us", "This is the kind of picture I would keep in every version of my life. You beside me feels like the point."],
-  ["assets/photos/p04.webp", "Blue light, pretty girl", "Every color looks better around you. Even a random moment turns into something I want to save."],
-  ["assets/photos/p05.webp", "Sunlit Vanika", "You make simple things feel cinematic. I look at this and immediately remember why I am so gone for you."],
-  ["assets/photos/p06.webp", "Dinner table memory", "I love that you can turn a normal table into a memory just by sitting there and being yourself."],
-  ["assets/photos/p07.webp", "Cozy proof", "This one feels like comfort. Like us. Like the kind of closeness I keep waiting to have again."],
-  ["assets/photos/p08.jpg", "My prettiest distraction", "Your face is unfair, but it is your heart that keeps me attached."],
-  ["assets/photos/p09.jpg", "That smile", "I hope you know your smile changes my whole mood faster than I can explain."],
-  ["assets/photos/p10.jpg", "Little saved moment", "Even the small moments feel worth keeping when they have you in them."],
-  ["assets/photos/p11.jpg", "Permanent file", "A photo is tiny, but the feeling behind it is not. I keep proof because I never want to forget how lucky I am."],
-  ["assets/photos/p12.jpg", "Frame twelve", "Another reminder that my favorite person is real, beautiful, and somehow mine."],
-  ["assets/photos/p13.jpg", "Frame thirteen", "I do not just miss the big moments. I miss the normal ones too."],
-  ["assets/photos/p14.jpg", "Frame fourteen", "Sometimes I look at you and think, yes, that is my future looking back."],
-  ["assets/photos/p15.jpg", "Frame fifteen", "You make me want to be softer, more patient, more loving, and more serious about us."],
-  ["assets/photos/p16.jpg", "Frame sixteen", "Six months and I still get that same feeling when I see you."],
-  ["assets/photos/p17.jpg", "Frame seventeen", "Every version of you has become my favorite version."],
-  ["assets/photos/p18.jpg", "Frame eighteen", "I would choose this story again, even knowing distance would be annoying."],
-  ["assets/photos/p19.jpg", "Frame nineteen", "You are the best thing my phone has ever held."],
-  ["assets/photos/p20.jpg", "Frame twenty", "The archive gets bigger, but the answer stays the same: it is you."],
-  ["assets/photos/p21.jpg", "Frame twenty-one", "A little proof that we are real, and that real love can survive imperfect days."],
-  ["assets/photos/p22.jpg", "Frame twenty-two", "I look at these and want more time, more pictures, more memories, more us."],
-  ["assets/photos/p23.jpg", "Frame twenty-three", "Distance gets loud. You are louder."],
-  ["assets/photos/p24.jpg", "Frame twenty-four", "I keep saving you in every format possible because my heart refuses to be casual about you."],
-  ["assets/photos/p25.jpg", "Frame twenty-five", "You really are my favorite view."],
-  ["assets/photos/p26.jpg", "Frame twenty-six", "Missing you is hard. Loving you is easy."],
-  ["assets/photos/p27.jpg", "Frame twenty-seven", "Some pictures just feel like a reason to keep going."],
-  ["assets/photos/p28.jpg", "Frame twenty-eight", "I want a thousand more of these, and I want to be there for them."],
-  ["assets/photos/p29.jpg", "Frame twenty-nine", "Tiny moment. Permanent feeling."],
-  ["assets/photos/p30.jpg", "Frame thirty", "All of these pictures together are still nowhere near enough proof of how much you mean to me."]
+  ["p01.webp", "Golden hour kept trying", "I love this because it feels like the world paused just to make you glow. You are the kind of pretty that makes me quiet for a second."],
+  ["p02.webp", "The softest view", "This one reminds me that missing you is not empty. It is proof that someone matters enough to be felt from far away."],
+  ["p03.webp", "My favorite us", "This is the kind of picture I would keep in every version of my life. You beside me feels like the point."],
+  ["p04.webp", "Blue light, pretty girl", "Every color looks better around you. Even a random moment turns into something I want to save."],
+  ["p05.webp", "Sunlit Vanika", "You make simple things feel cinematic. I look at this and immediately remember why I am so gone for you."],
+  ["p06.webp", "Dinner table memory", "I love that you can turn a normal table into a memory just by sitting there and being yourself."],
+  ["p07.webp", "Cozy proof", "This one feels like comfort. Like us. Like the kind of closeness I keep waiting to have again."],
+  ["p08.jpg", "My prettiest distraction", "Your face is unfair, but it is your heart that keeps me attached."],
+  ["p09.jpg", "That smile", "I hope you know your smile changes my whole mood faster than I can explain."],
+  ["p10.jpg", "Little saved moment", "Even the small moments feel worth keeping when they have you in them."],
+  ["p11.jpg", "Permanent file", "A photo is tiny, but the feeling behind it is not. I keep proof because I never want to forget how lucky I am."],
+  ["p12.jpg", "Frame twelve", "Another reminder that my favorite person is real, beautiful, and somehow mine."],
+  ["p13.jpg", "Frame thirteen", "I do not just miss the big moments. I miss the normal ones too."],
+  ["p14.jpg", "Frame fourteen", "Sometimes I look at you and think, yes, that is my future looking back."],
+  ["p15.jpg", "Frame fifteen", "You make me want to be softer, more patient, more loving, and more serious about us."],
+  ["p16.jpg", "Frame sixteen", "Six months and I still get that same feeling when I see you."],
+  ["p17.jpg", "Frame seventeen", "Every version of you has become my favorite version."],
+  ["p18.jpg", "Frame eighteen", "I would choose this story again, even knowing distance would be annoying."],
+  ["p19.jpg", "Frame nineteen", "You are the best thing my phone has ever held."],
+  ["p20.jpg", "Frame twenty", "The archive gets bigger, but the answer stays the same: it is you."],
+  ["p21.jpg", "Frame twenty-one", "A little proof that we are real, and that real love can survive imperfect days."],
+  ["p22.jpg", "Frame twenty-two", "I look at these and want more time, more pictures, more memories, more us."],
+  ["p23.jpg", "Frame twenty-three", "Distance gets loud. You are louder."],
+  ["p24.jpg", "Frame twenty-four", "I keep saving you in every format possible because my heart refuses to be casual about you."],
+  ["p25.jpg", "Frame twenty-five", "You really are my favorite view."],
+  ["p26.jpg", "Frame twenty-six", "Missing you is hard. Loving you is easy."],
+  ["p27.jpg", "Frame twenty-seven", "Some pictures just feel like a reason to keep going."],
+  ["p28.jpg", "Frame twenty-eight", "I want a thousand more of these, and I want to be there for them."],
+  ["p29.jpg", "Frame twenty-nine", "Tiny moment. Permanent feeling."],
+  ["p30.jpg", "Frame thirty", "All of these pictures together are still nowhere near enough proof of how much you mean to me."]
 ];
 
 const months = [
@@ -133,8 +133,8 @@ const alsoLoved = ["Kakushigoto: My Dad's Secret Ambition", "The Royal Tutor", "
 const rereads = ["Kirameki no Lion Boy", "Under the Oak Tree", "Second to None Adoration", "Your Majesty, Please Watch Your Figure", "Coffee and Vanilla", "Namaikizakari", "Renai Gokko Sayokyoku", "The Kind Goblin's Bird", "Gunjou Reflection", "Sei-chan, Your Love Is Too Much", "Ore Yome", "Honey Lemon Soda", "Just for a Meowment", "She May Not Be Cute", "Honey Come Honey", "I Met the Male Lead in Prison", "Beatrice", "Hayaku Shitai Futari", "Please Throw Me Away", "Seduce the Villain's Father", "The Bittersweet Couple", "Na no ni Chigira-kun", "Kimi wa Kawaii Onnanoko", "Positively Yours", "Devious New Employee", "Give Me a Flower, I Will Give You All of Me", "Elixir of the Sun", "Surely a Happy Ending", "Suki Kirai Kiss", "Inazuma to Romance", "Business Proposal", "Noraneko to Ookami", "Sixth Sense Kiss", "Blissful Marriage"];
 
 const repeatedMemoryPhotoSources = new Set([
-  "assets/photos/p02.webp",
-  "assets/photos/p07.webp"
+  "p02.webp",
+  "p07.webp"
 ]);
 
 const startDate = new Date("2026-01-04T00:00:00");
